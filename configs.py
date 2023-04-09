@@ -9,10 +9,10 @@ class Config(object):
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5849729866:AAH18KITKTZ-RUgahTabwPrqlYEo6Tzpu7o")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "HiFiii_bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001642275581"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1823620269"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://random:random@cluster0.tb63h.mongodb.net/cluster0?retryWrites=true&w=majority")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001736636305")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001642275581")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -31,16 +31,16 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Render](https://render.com)
 
-🧑🏻‍💻 **Editor:** @JAsuran2p0
+🧑🏻‍💻 **Editor:** @Sanjanasri3
 
-👥 **Support Group:** [Bots Channel](https://t.me/jasuranbots)
+👥 **Support Group:** [Bots Channel](https://t.me/+BPe_e7rGtac0ODc1)
 
-👥 **Movie Search Group:** [Bots Channel](https://t.me/Asuranmoviefinder1)
+👥 **Movie Search Group:** [Bots Channel](https://t.me/+hPquUHH5G3ljNjRh)
 
-📢 **Updates Channel:** [JAsuran Serials](https://t.me/JAsuranserials)
+📢 **Updates Channel:** [Serials](https://t.me/+5qnoPfao9KE2ZjMx)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Editor:** @JAsuran2p0
+🧑🏻‍💻 **Editor:** @Sanjanasri3
 
 Editor is Noob. Just Learning from Official Docs.
 """
