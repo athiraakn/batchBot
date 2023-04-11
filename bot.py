@@ -122,7 +122,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/AsuranMoviefinder)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/+BPe_e7rGtac0ODc1)",
                                      disable_web_page_preview=True)
             return
 
@@ -352,8 +352,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/AsuranMoviefinder"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuranbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/+BPe_e7rGtac0ODc1"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/+5qnoPfao9KE2ZjMx")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -373,7 +373,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/AsuranMoviefinder).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/+BPe_e7rGtac0ODc1).",
                         disable_web_page_preview=True
                     )
                     return
@@ -396,7 +396,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/AsuranMoviefinder).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/+BPe_e7rGtac0ODc1).",
                     disable_web_page_preview=True
                 )
                 return
@@ -406,8 +406,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/AsuranMoviefinder"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuranbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/+BPe_e7rGtac0ODc1"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/+5qnoPfao9KE2ZjMx")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
